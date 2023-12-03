@@ -1,4 +1,5 @@
 'use client'
+
 import React from 'react'
 import Link from 'next/link'
 
@@ -17,7 +18,8 @@ const SectionCinco: React.FC = () => {
                 <Link href='/'>Casagrande Laplace</Link>
               </span>
             </h2>
-            <p className='text-white text-center'>Av. Laplace esq. Julio Verne. Villa Belgrano. Córdoba Capital.M. Berthelot 5225 (casi esquina Av. Laplace). Lunes a Viernes de 16 a 20 hs - Sábados de 10 a 14 hs.</p>
+            <p className='text-white text-center'>Av. Laplace esq. Julio Verne. Villa Belgrano. Córdoba Capital.M. Berthelot 5225 (casi esquina Av. Laplace)</p>
+            <p className='text-white'>Agenda tu visita en el horario que te quede mas comodo, al numero <span className='font-bold'><a href='https://wa.me/5493518192818' target='_blank'>351 819-2818</a></span></p>
             <Link href='#contacto'>
               <Button content='Contactanos' />
             </Link>

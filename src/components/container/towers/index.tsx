@@ -21,14 +21,14 @@ const towers: ITowersInfo[] = [
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ducimus labore distinctio nulla expedita dolorum ex cumque rerum, reiciendis delectus!',
     img: torreSuquiaImg,
     alt: 'Dycsa - Render de frente de Torre Suquia con parque y arboles',
-    info: ['Imponente Hall central de ingreso', '8 pisos de departamentos', '1,2 y 3 dormitorios desde 115ms2 hasta 370m2', 'Balcones con asador', 'Carpinteria exterior de aluminio DVH', 'Unidades Domotizadas', 'Cerraduras con control digital']
+    info: ['Imponente Hall central de ingreso', '8 pisos de departamentos', '1,2 y 3 dormitorios desde 115ms2 hasta 370m2', 'Cerraduras con control digital e ingresos con lectura de rostro', 'Carpinteria exterior de aluminio DVH', 'Unidades Domotizadas', 'Cerraduras con control digital']
   },
   {
     title: 'Torre Laplace',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ducimus labore distinctio nulla expedita dolorum ex cumque rerum, reiciendis delectus!',
     img: torreLaplaceImg,
     alt: 'Dycsa - Render Torre Laplace sobre calle Laplace frente comercial y gente caminando',
-    info: ['Frente imponente sobre Avenida Laplace', '2 pisos de departamentos', 'Locales comerciales', 'Parking en planta baja']
+    info: ['Frente imponente sobre Avenida Laplace', '2 pisos de departamentos', 'Locales comerciales', 'Parking en planta baja', 'Departamentos con cava privada en subsuelo', '32 cocheras de cortesía', 'tercer piso con unidades tipologias "Estudio"']
   }
 ]
 
