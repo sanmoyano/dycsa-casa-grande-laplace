@@ -43,17 +43,17 @@ export default function RootLayout ({ children }: { children: React.ReactNode })
         <link href='/favicon-16x16.png' rel='icon' sizes='16x16' type='image/png' />
         <link href='/site.webmanifest' rel='manifest' />
         <meta content='on' name='twitter:widgets:csp' />
-        <Script crossOrigin='anonymous' src='https://connect.facebook.net/en_US/sdk.js?hash=ef455e3d3b0168da259e5283b62d9752' />
+        <Script async crossOrigin='anonymous' src='https://connect.facebook.net/en_US/sdk.js?hash=ef455e3d3b0168da259e5283b62d9752' />
         <Script id='facebook-jssdk' src='https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v3.0' />
-        <Script data-ads-env='prod' data-ads-portal-id='5734234' data-hsjs-env='prod' data-hsjs-hublet='na1' data-hsjs-portal='5734234' data-loader='hs-scriptloader' id='hs-ads-pixel-5734234' src='https://js.hsadspixel.net/fb.js' type='text/javascript' />
-        <Script id='hs-analytics' src='https://js.hs-analytics.net/analytics/1701642300000/5734234.js' type='text/javascript' />
-        <Script src='https://www.googletagmanager.com/gtm.js?id=GTM-M2SJW7F' />
-        <Script id='tag-manager'>
+        <Script async data-ads-env='prod' data-ads-portal-id='5734234' data-hsjs-env='prod' data-hsjs-hublet='na1' data-hsjs-portal='5734234' data-loader='hs-scriptloader' id='hs-ads-pixel-5734234' src='https://js.hsadspixel.net/fb.js' type='text/javascript' />
+        <Script async id='hs-analytics' src='https://js.hs-analytics.net/analytics/1701642300000/5734234.js' type='text/javascript' />
+        <Script async src='https://www.googletagmanager.com/gtm.js?id=GTM-M2SJW7F' />
+        <Script async id='tag-manager'>
           {`
             window.dataLayer = [{"title":"Casagrande Laplace :: \u00a1Viv\u00ed a lo Grande!","author":"Eduardo Sondon","wordcount":0,"logged_in":"false","page_id":499,"post_date":"2019-03-24 18:52:26"}]
           `}
         </Script>
-        <Script id='google-analytics'>
+        <Script async id='google-analytics'>
           {`
           (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-M2SJW7F')
           `}
