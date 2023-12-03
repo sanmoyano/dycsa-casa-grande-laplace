@@ -1,6 +1,7 @@
 import React from 'react'
 import './globals.css'
 import localFont from 'next/font/local'
+import Script from 'next/script'
 
 import Header from '@/components/presentational/header'
 import Footer from '@/components/presentational/footer'
@@ -46,6 +47,8 @@ export default function RootLayout ({ children }: { children: React.ReactNode })
         <Header />
         {children}
         <Footer />
+        <Script async defer id='hs-script-loader' src='"//js.hs-scripts.com/5734234.js' type='text/javascript' />
+        <Script src='//js.hsforms.net/forms/embed/v2.js' type='text/javascript' />
       </body>
     </html>
   )
