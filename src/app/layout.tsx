@@ -4,8 +4,6 @@ import localFont from 'next/font/local'
 import Script from 'next/script'
 import { GoogleTagManager } from '@next/third-parties/google'
 
-import Header from '@/components/presentational/header'
-
 import type { Metadata } from 'next'
 
 const pangram = localFont({
@@ -49,7 +47,6 @@ export default function RootLayout ({ children }: { children: React.ReactNode })
         <Script async id='hs-analytics' src='https://js.hs-analytics.net/analytics/1701642300000/5734234.js' type='text/javascript' />
       </head>
       <body className={`${pangram.variable}`}>
-        <Header />
         {children}
         <Script async defer id='hs-script-loader' src='"//js.hs-scripts.com/5734234.js' type='text/javascript' />
         <Script src='//js.hsforms.net/forms/embed/v2.js' type='text/javascript' />
