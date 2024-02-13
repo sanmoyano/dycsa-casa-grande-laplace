@@ -43,6 +43,10 @@ export default function RootLayout ({ children }: { children: React.ReactNode })
         <link href='/favicon-16x16.png' rel='icon' sizes='16x16' type='image/png' />
         <link href='/site.webmanifest' rel='manifest' />
         <meta content='on' name='twitter:widgets:csp' />
+        <Script async crossOrigin='anonymous' src='https://connect.facebook.net/en_US/sdk.js?hash=ef455e3d3b0168da259e5283b62d9752' />
+        <Script id='facebook-jssdk' src='https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v3.0' />
+        <Script async data-ads-env='prod' data-ads-portal-id='5734234' data-hsjs-env='prod' data-hsjs-hublet='na1' data-hsjs-portal='5734234' data-loader='hs-scriptloader' id='hs-ads-pixel-5734234' src='https://js.hsadspixel.net/fb.js' type='text/javascript' />
+        <Script async id='hs-analytics' src='https://js.hs-analytics.net/analytics/1701642300000/5734234.js' type='text/javascript' />
       </head>
       <body className={`${pangram.variable}`}>
         <Header />
