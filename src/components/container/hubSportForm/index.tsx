@@ -3,7 +3,7 @@
 import React from 'react'
 import HubspotForm from 'react-hubspot-form'
 
-const HubSpotContactForm = () => {
+const HubSpotContactForm: React.FC = () => {
   return (
     <div className='w-full p-12'>
       <HubspotForm

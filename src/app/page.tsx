@@ -5,6 +5,7 @@ import SectionDos from '@/sections/S02'
 import SectionTres from '@/sections/S03'
 import SectionCuatro from '@/sections/S04'
 import SectionCinco from '@/sections/S05'
+import Footer from '@/components/presentational/footer'
 
 export default function Home () {
   return (
@@ -16,6 +17,7 @@ export default function Home () {
         <SectionTres />
         <SectionCuatro />
         <SectionCinco />
+        <Footer />
       </SectionsLayout>
     </main>
   )
